@@ -1,0 +1,63 @@
+{
+  "name": "gotdotdialoguemanagersyntax",
+  "displayName": "Godot DialogueManager Syntax",
+  "description": "Syntax highlighting for the Godot plugin DialogueManager",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "repository": "tbd",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "godotdialogue",
+      "aliases": ["GodotDialogue", "godotdialogue"],
+      "extensions": [".dialogue"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "godotdialogue",
+      "scopeName": "source.dialogue",
+      "path": "./syntaxes/godotdialogue.tmLanguage.json"
+    }]
+    ,
+    "configurationDefaults": {
+        "editor.tokenColorCustomizations": {
+          "textMateRules": [
+            { "scope": "keyword.control.godotdialogue", "settings": { "foreground": "#C586C0" } },
+            { "scope": "comment.line.number-sign.godotdialogue", "settings": { "foreground": "#6A9955" } },
+            { "scope": "entity.name.section.title.godotdialogue", "settings": { "foreground": "#FF8800"} },
+            { "scope": "string.quoted.double.path.godotdialogue", "settings": { "foreground": "#CE9178" } },
+            { "scope": "string.quoted.double.godotdialogue", "settings": { "foreground": "#CE9178" } },
+            { "scope": "entity.name.import.godotdialogue", "settings": { "foreground": "#D4D4D4" } },
+            { "scope": "keyword.other.using.godotdialogue", "settings": { "foreground": "#C586C0" } },
+            { "scope": "variable.other.using.godotdialogue", "settings": { "foreground": "#D4D4D4" } },
+            { "scope": "keyword.other.mutation.godotdialogue", "settings": { "foreground": "#DCDCAA" } },
+            { "scope": "keyword.operator.goto.godotdialogue", "settings": { "foreground": "#FF8800" } },
+            { "scope": "string.unquoted.goto-target.godotdialogue", "settings": { "foreground": "#FF8800" } },
+            { "scope": "punctuation.definition.response.godotdialogue", "settings": { "foreground": "#D4D4D4" } },
+            { "scope": "string.unquoted.response.godotdialogue", "settings": { "foreground": "#D4D4D4" } },
+            { "scope": "constant.other.random.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "meta.tag.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "entity.name.tag.godotdialogue", "settings": { "foreground": "#D4D4D4" } },
+            { "scope": "variable.other.replacement.godotdialogue", "settings": { "foreground": "#FF8800" } },
+            { "scope": "constant.numeric.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "constant.language.boolean.godotdialogue", "settings": { "foreground": "#C586C0" } },
+            { "scope": "keyword.operator.comparison.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "keyword.operator.assignment.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "keyword.operator.math.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "punctuation.separator.comma.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "punctuation.definition.brackets.godotdialogue", "settings": { "foreground": "#B5CEA8" } },
+            { "scope": "support.function.godotdialogue", "settings": { "foreground": "#DCDCAA" } },
+            { "scope": "variable.other.godotdialogue", "settings": { "foreground": "#4EC9B0" } },
+            { "scope": "constant.character.escape.godotdialogue", "settings": { "foreground": "#CE9178" } },
+            { "scope": "entity.name.section.speaker.godotdialogue", "settings": { "foreground": "#569CD6" } },
+            { "scope": "invalid.illegal.godotdialogue", "settings": { "foreground": "#F44747" } }
+          ]
+        }
+      }
+  }
+}
