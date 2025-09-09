@@ -4,7 +4,7 @@
   "description": "Syntax highlighting for the Godot plugin DialogueManager",
   "version": "0.0.1",
   "icon": "icon.png",
-  "repository": "tbd",
+  "repository": "https://github.com/samugaridev/godotdialoguemanagersyntax.git",
   "engines": {
     "vscode": "^1.103.0"
   },
