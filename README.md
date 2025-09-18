@@ -2,6 +2,8 @@
 
 This extension provides language support for the Dialogue Manager addon for Godot.
 
+*This extension is not assosiated??? with the creators of Godot or Godot Dialogue Manager 
+
 ## Features
 
 Provides syntax highlighting for .dialogue files created by the Dialogue Manager addon for the Godot game engine.
