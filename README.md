@@ -2,7 +2,7 @@
 
 This extension provides language support for the Dialogue Manager addon for Godot.
 
-*This extension is not assosiated??? with the creators of Godot or Godot Dialogue Manager 
+*This extension is not associated with the creators of Godot or Godot Dialogue Manager 
 
 ## Features
 
